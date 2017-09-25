@@ -4,5 +4,5 @@
 # pycache
 __pycache__
 
-# gitkeep
-.gitkeep
+# keep null directory
+!.gitkeep
