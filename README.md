@@ -1,6 +1,7 @@
 ## Project Structure of Python
 This is a project structure of Python.
 
+
 ### Directory Tree
 The directory-tree was built as follow.
 ```
@@ -22,6 +23,7 @@ MODULETEST
 
 The `README.PY` and `.gitignore` should be established in the root of project.
 
+
 ### Importation
 If you import other module in same package, you should use absolute path of package for unification of outside and inside of package. for instance, if you want import `module_package/subpackage1/foo1.py` in `module_package/subpackage2/foo2.py`, you should add write code as follow:
 ```python
@@ -32,6 +34,7 @@ Similarly, if you import module out of package(in this case you import `module_p
 ```python
 from module_package.subpackage1 import foo1
 ```
+
 
 ### Execution
 If you want execute module in the package, you should confirm that your execution directory in the project, and execute following shell:
